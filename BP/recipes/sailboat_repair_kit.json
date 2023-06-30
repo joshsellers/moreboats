@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "boats:sailboat_repair_kit"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"#": {
+				"item": "planks"
+			},
+			"X": {
+				"item": "iron_ingot"
+			}
+		},
+		"pattern": [
+			"#X#",
+			"#X#",
+			"###"
+		],
+		"result": {
+			"item": "boats:sailboat_repair_kit"
+		}
+	}
+}

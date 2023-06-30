@@ -1,0 +1,24 @@
+{
+	"resource_pack_name": "More Boats",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"boats_sailboat": {
+			"textures": "textures/items/sailboat"
+		},
+		"boats_sailboat_bow": {
+			"textures": "textures/items/sailboat_bow"
+		},
+		"boats_sailboat_hull": {
+			"textures": "textures/items/sailboat_hull"
+		},
+		"boats_sailboat_stern": {
+			"textures": "textures/items/sailboat_stern"
+		},
+		"boats_sailboat_sail": {
+			"textures": "textures/items/sailboat_sail"
+		},
+		"boats_sailboat_repair_kit": {
+			"textures": "textures/items/sailboat_repair_kit"
+		}
+	}
+}

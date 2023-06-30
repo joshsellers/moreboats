@@ -1,0 +1,14 @@
+{
+    "entity_sounds": {
+        "entities": {
+            "boats:pirate_ship": {
+                "volume": 1,
+                "pitch": 1,
+                "events": {
+                    "hurt": "dig.wood",
+                    "death": "dig.wood"
+                }
+            }
+        }
+    }
+}

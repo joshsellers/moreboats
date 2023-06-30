@@ -1,0 +1,9 @@
+item.spawn_egg.entity.boats:pirate_ship.name=Spawn Sailboat
+entity.boats:pirate_ship.name=Sailboat
+action.hint.exit.boats:pirate_ship=Exit Sailboat
+item.boats:sailboat=Sailboat
+item.boats:sailboat_bow=Sailboat Bow
+item.boats:sailboat_hull=Sailboat Hull
+item.boats:sailboat_stern=Sailboat Stern
+item.boats:sailboat_sail=Sailboat Sail
+item.boats:sailboat_repair_kit=Sailboat Repair Kit

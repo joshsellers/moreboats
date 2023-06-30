@@ -1,0 +1,101 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "boats:pirate_ship",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"boat",
+					"inanimate"
+				]
+			},
+			"minecraft:rideable": {
+				"controlling_seat": 0,
+				"interact_text": "action.interact.ride.boat",
+				"seat_count": 1,
+				"seats": [
+					{
+						"position": [
+							0,
+							3,
+							-5
+						],
+						"min_rider_count": 0,
+						"max_rider_count": 1
+					}
+				],
+				"crouching_skip_interact": true
+			},
+			"minecraft:buoyant": {
+				"apply_gravity": true,
+				"base_buoyancy": 1,
+				"big_wave_probability": 0.03,
+				"big_wave_speed": 10,
+				"simulate_waves": true,
+				"liquid_blocks": [
+					"minecraft:water",
+					"minecraft:flowing_water"
+				]
+			},
+			"minecraft:movement.basic": {
+				"max_turn": 20
+			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:movement": {
+				"value": 10
+			},
+			"minecraft:collision_box": {
+				"width": 7,
+				"height": 3
+			},
+			"minecraft:conditional_bandwidth_optimization": {
+				"default_values": {
+					"use_motion_predicted_hints": true
+				},
+				"conditional_values": {
+					"use_motion_predicted_hints": true
+				}
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1.0
+			},
+			"minecraft:inventory": {
+				"container_type": "chest_boat",
+				"inventory_size": 27
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "suffocation",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:fire_immune": false,
+			"minecraft:health": {
+				"max": 20,
+				"value": 20
+			},
+			"minecraft:healable": {
+				"items": [
+					{
+						"item": "boats:sailboat_repair_kit",
+						"heal_amount": 20
+					}
+				]
+			}
+		},
+		"events": {}
+	}
+}

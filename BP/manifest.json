@@ -1,0 +1,43 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"joshs"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.0"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "More Boats",
+		"description": "",
+		"min_engine_version": [
+			1,
+			19,
+			60
+		],
+		"uuid": "49dc43e2-c8d8-478e-99a4-3517c9626f92",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "c8233243-e4d3-4fa2-8a93-2c16ad074bda",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": []
+}

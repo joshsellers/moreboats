@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "boats:pirate_ship",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/pirate_ship"
+			},
+			"geometry": {
+				"default": "geometry.pirate_ship"
+			},
+			"render_controllers": [
+				"controller.render.pirate_ship"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			},
+			"animations": {
+				"ship_death": "animation.ship_death"
+			},
+			"animation_controllers": [
+				{
+					"pirate_ship": "controller.animation.pirate_ship"
+				}
+			]
+		}
+	}
+}

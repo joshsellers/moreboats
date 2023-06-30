@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "boats:sailboat_hull",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "boats_sailboat_hull"
+			}
+		}
+	}
+}

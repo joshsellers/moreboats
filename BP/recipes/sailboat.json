@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "boats:sailboat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"#": {
+				"item": "boats:sailboat_bow"
+			},
+			"X": {
+				"item": "boats:sailboat_hull"
+			},
+			"L": {
+				"item": "boats:sailboat_stern"
+			},
+			"K": {
+				"item": "boats:sailboat_sail"
+			}
+		},
+		"pattern": [
+			"   ",
+			" K ",
+			"#XL"
+		],
+		"result": {
+			"item": "boats:sailboat"
+		}
+	}
+}
