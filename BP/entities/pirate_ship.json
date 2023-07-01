@@ -18,7 +18,7 @@
 			"minecraft:rideable": {
 				"controlling_seat": 0,
 				"interact_text": "action.interact.ride.boat",
-				"seat_count": 1,
+				"seat_count": 42,
 				"seats": [
 					{
 						"position": [
@@ -27,10 +27,380 @@
 							-5
 						],
 						"min_rider_count": 0,
-						"max_rider_count": 1
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							0,
+							2.2,
+							4
+						],
+						"min_rider_count": 1,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							0,
+							2.2,
+							3
+						],
+						"min_rider_count": 2,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							0,
+							2.2,
+							2
+						],
+						"min_rider_count": 3,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							0,
+							2.2,
+							1
+						],
+						"min_rider_count": 4,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							1,
+							2.2,
+							4
+						],
+						"min_rider_count": 5,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							1,
+							2.2,
+							3
+						],
+						"min_rider_count": 6,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							1,
+							2.2,
+							2
+						],
+						"min_rider_count": 7,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							1,
+							2.2,
+							1
+						],
+						"min_rider_count": 8,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							1,
+							2.2,
+							0
+						],
+						"min_rider_count": 9,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							1,
+							2.2,
+							-1
+						],
+						"min_rider_count": 10,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							1,
+							2.2,
+							-2
+						],
+						"min_rider_count": 11,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							1,
+							2.2,
+							-3
+						],
+						"min_rider_count": 12,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							2,
+							2.2,
+							4
+						],
+						"min_rider_count": 13,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							2,
+							2.2,
+							3
+						],
+						"min_rider_count": 14,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							2,
+							2.2,
+							2
+						],
+						"min_rider_count": 15,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							2,
+							2.2,
+							1
+						],
+						"min_rider_count": 16,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							2,
+							2.2,
+							0
+						],
+						"min_rider_count": 17,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							2,
+							2.2,
+							-1
+						],
+						"min_rider_count": 18,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							2,
+							2.2,
+							-2
+						],
+						"min_rider_count": 19,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							2,
+							2.2,
+							-3
+						],
+						"min_rider_count": 20,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							2,
+							2.2,
+							-4
+						],
+						"min_rider_count": 21,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-1,
+							2.2,
+							4
+						],
+						"min_rider_count": 22,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-1,
+							2.2,
+							3
+						],
+						"min_rider_count": 23,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-1,
+							2.2,
+							2
+						],
+						"min_rider_count": 24,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-1,
+							2.2,
+							1
+						],
+						"min_rider_count": 25,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-1,
+							2.2,
+							0
+						],
+						"min_rider_count": 26,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-1,
+							2.2,
+							-1
+						],
+						"min_rider_count": 27,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-1,
+							2.2,
+							-2
+						],
+						"min_rider_count": 28,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-1,
+							2.2,
+							-3
+						],
+						"min_rider_count": 29,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-2,
+							2.2,
+							4
+						],
+						"min_rider_count": 30,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-2,
+							2.2,
+							3
+						],
+						"min_rider_count": 31,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-2,
+							2.2,
+							2
+						],
+						"min_rider_count": 32,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-2,
+							2.2,
+							1
+						],
+						"min_rider_count": 33,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-2,
+							2.2,
+							0
+						],
+						"min_rider_count": 34,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-2,
+							2.2,
+							-1
+						],
+						"min_rider_count": 35,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-2,
+							2.2,
+							-2
+						],
+						"min_rider_count": 36,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-2,
+							2.2,
+							-3
+						],
+						"min_rider_count": 37,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							-2,
+							2.2,
+							-4
+						],
+						"min_rider_count": 38,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							0,
+							2.2,
+							-1
+						],
+						"min_rider_count": 39,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							0,
+							2.2,
+							-2
+						],
+						"min_rider_count": 40,
+						"max_rider_count": 42
+					},
+					{
+						"position": [
+							0,
+							2.2,
+							-3
+						],
+						"min_rider_count": 41,
+						"max_rider_count": 42
 					}
 				],
-				"crouching_skip_interact": true
+				"crouching_skip_interact": true,
+				"pull_in_entities": true
 			},
 			"minecraft:buoyant": {
 				"apply_gravity": true,
